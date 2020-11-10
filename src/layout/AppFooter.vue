@@ -31,12 +31,7 @@
             </div>
             <hr>
             <div class="row align-items-center justify-content-md-between">
-                <div class="col-md-6">
-                    <div class="copyright">
-                        Developer
-                        <a href="mailto:michaelsaiba84@gmail.com" target="_blank" rel="noopener">michaelsaiba84@gmail.com</a> 
-                    </div>
-                </div>
+                
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
@@ -58,6 +53,12 @@
                                class="nav-link" target="_blank" rel="noopener">Gallery</a>
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="copyright">
+                        
+                        <a href="mailto:michaelsaiba84@gmail.com" target="_blank" rel="noopener">Developer michaelsaiba84@gmail.com</a> 
+                    </div>
                 </div>
             </div>
         </div>

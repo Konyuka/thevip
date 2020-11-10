@@ -23,7 +23,7 @@ exports.forwardMessage = functions.firestore.document('/bookings/{bookingsId}').
   html+="<strong>Contact Number:</strong> "+striptags(snapshot.get('phone'))+"<br/><br/>"
   html+="<strong>Services Required:</strong> "+striptags(snapshot.get('service'))+"<br/><br/>"
   html+="<strong>Number Of Guests:</strong> "+striptags(snapshot.get('guests'))+"<br/><br/>"
-  html+="<strong>Phone:</strong> "+striptags(snapshot.get('description'))+"<br/><br/>"
+  html+="<strong>Description:</strong> "+striptags(snapshot.get('description'))+"<br/><br/>"
   
   if(snapshot.get('bookings')) {
     html+="<strong>:</strong><br/><pre>"+striptags(snapshot.get('bookings'))+"</pre><br/><br/>"

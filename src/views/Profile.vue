@@ -13,6 +13,7 @@
         </section>
         <section class="section section-skew">
             <div class="container">
+                
                 <card shadow class="card-profile mt--300" no-body>
                     <div class="px-4">
                         <div class="row justify-content-center">
@@ -51,24 +52,27 @@
                             </div>
                         </div>
                         <div class="text-center mt-5">
-                            <h3>The Villa Intenational Palace Hotel
-                                <span class="font-weight-light">, The VIP</span>
+                            <h3>The Villa Intenational Palace Hotel Limited <br>
+                                <span class="font-weight-light">The V.I.P Hotel</span>
                             </h3>
                             <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Madeya, Siaya</div>
-                            <div class="h6 mt-4 sweet"><i class="ni business_briefcase-24 mr-2"></i>State of the Art Hospitality</div>
+                            <div class="h5 mt-4"><i class="ni business_briefcase-24 mr-2"></i>State of the Art Hospitality</div>
                             <!-- <div><i class="ni education_hat mr-2"></i>University of Computer Science</div> -->
                         </div>
                         <div class="mt-5 py-5 border-top text-center">
                             <div class="row justify-content-center">
                                 <div class="col-lg-9">
                                     <p>
-                                        The Villa International Palace Hotel is a unique luxury brand in Kenya at the Heart of Siaya County. <br>
+                                        The Villa International Palace Hotel is a unique luxury brand in Siaya County, Kenya. <br>
                                         The Hotel derives its name and inspiration from the words...<br>
                                         <b>Villa</b> meaning a large and cosy house in the country side. <br>
                                         <b>International</b> Kenyan by birth, international by choice. <br>
                                         <b>Palace</b> meaning a grand residence of royal stature. <br>
-                                        
-                                    
+                                        At the heart of every individual is the desire to be treated exceptionally. <br>
+                                        This is why we aim to make your stay a tremendous one. <br>
+                                        Our serene environment makes it a natural choice for accommodation. <br>
+                                        The pool terrace, executive lounges and barbecue area are all located at a vantage point of beautiful lawn and gardens.
+                                        Thank you for choosing The V.I.P Hotel. <br>
 
                                     </p>
                                     <router-link to="/book">

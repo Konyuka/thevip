@@ -11,57 +11,18 @@
         <download-section></download-section> -->
         <carousel></carousel>
 
-        <section class="section section-lg pt-lg-0 mt--200">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="row row-grid">
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="fa fa-handshake" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Let's Meet Up</h6>
-                                    <div>
-                                        <badge type="primary" rounded>Conferencing</badge>
-                                        <badge type="primary" rounded>Ample Parking</badge>
-                                    </div>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="fas fa-campground" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Sweeten Your Stay</h6>
-                                    <div>
-                                        <badge type="primary" rounded>Cuisines</badge>
-                                        <badge type="primary" rounded>Accomodation</badge>
-                                    </div>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="fas fa-suitcase-rolling" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Best Vacay Ever</h6>
-                                    <div>
-                                        <badge type="primary" rounded>Pool</badge>
-                                        <badge type="primary" rounded>Music & Bar</badge>
-                                    </div>
-                                </card>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
 
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
+                    <div class="col-md-2 order-md-3" >
+                     <img src="/img/choice.png" alt="">
+                    </div>
                     <div class="col-md-6 order-md-2">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/84/e7/59/aerial-view-of-the-vip.jpg" class="img-fluid floating">
                     </div>
-                    <div class="col-md-6 order-md-1">
+                    <div class="col-md-4 order-md-1">
                         <div class="pr-md-5">
                             <icon name="fa fa-search-location" class="mb-5" size="lg" type="primary" shadow
                                   rounded></icon>
@@ -76,13 +37,22 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="primary" circle class="mr-3" icon="fa fa-road"></badge>
-                                        <h6 class="mb-0">Main Kisumu-Busia Highway</h6>
+                                        <h6 class="mb-0">Along Kisumu-Busia Highway</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="primary" circle class="mr-3" icon="fa fa-compass"></badge>
                                         <h6 class="mb-0">At Madeya Center</h6>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-4" icon="fa fa-street-view"></badge>
+                                        <a href="
+                                        https://www.google.com/maps/place/Vip+Hotel+Madeya/@0.1437783,34.3988316,15z/data=!4m8!3m7!1s0x0:0x9e65d3acb3ad841f!5m2!4m1!1i2!8m2!3d0.1437783!4d34.3988316
+                                        " target="blank"> <h5 class="mb-0 text-success">VIEW ON MAP</h5> </a>
                                     </div>
                                 </li>
                             </ul>
@@ -109,7 +79,7 @@
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
-                                <h3 class="text-white">The Villa International Palace Hotel</h3>
+                                <h3 class="text-white">The Villa International Palace Hotel Limited</h3>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
                                 <router-link to="/book"> 
@@ -186,7 +156,7 @@
                                 <div class="pl-4">
                                     <h5 class="title text-primary">Executive lounges & Barbeque</h5>
                                     <p>
-                                        Imagine good beer of wine as you like it, going down with tasty chunks of Nyama choma.
+                                        Imagine good beer or wine as you like it, going down with tasty chunks of Nyama choma.
                                         You might be surprised of our expertise in hospitality and service. Come relax with family 
                                         or friends or both. Finest taste in music is guaranteed!   
                                     </p>

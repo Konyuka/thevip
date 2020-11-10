@@ -11,7 +11,12 @@
             <span class="floating"></span>
         </div>
         <div class="container pt-lg-md">
-
+            <div class="alert alert-warning" role="alert" v-if="errors.length">
+                    <b> <span> <i class="fas fa-exclamation-triangle" ></i> </span>  Not Yet:</b>
+                    <ul>
+                    <li v-for="error in errors">{{ error }}</li>
+                    </ul>
+                </div>
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <card type="secondary" shadow
@@ -136,6 +141,7 @@ export default {
   },
   data: function () {
         return {
+            errors:[],
             contactFormData: {
                 name: '',
                 email: '',
@@ -158,10 +164,8 @@ export default {
       addBooking() {
         if ( 
             this.contactFormData.name && 
-            this.contactFormData.email && 
             this.contactFormData.phone && 
             this.contactFormData.service && 
-            this.contactFormData.description && 
             this.contactFormData.guests && 
             this.contactFormData.dates
             ) {
@@ -175,33 +179,27 @@ export default {
                 title: 'Notification sent successfully'
             })
 
-            this.resetForm(); 
-
         }
 
         this.errors = [];
 
         if (!this.contactFormData.name) {
-            this.errors.push('Product Name is required.');
+            this.errors.push('Name is required.');
         }
-        if (!this.contactFormData.email) {
-            this.errors.push('Product Category is required.');
-        }
+        
         if (!this.contactFormData.phone) {
-            this.errors.push('Location is required.');
+            this.errors.push('Phone is required.');
         }
         if (!this.contactFormData.service) {
-            this.errors.push('Contact Name is required.');
-        }
-        if (!this.contactFormData.description) {
-            this.errors.push('Contact Phone is required.');
+            this.errors.push('Service is required.');
         }
         if (!this.contactFormData.guests) {
-            this.errors.push('Product Price required.');
+            this.errors.push('Number of Guests is required.');
         }
         if (!this.contactFormData.dates) {
-            this.errors.push('Product Type is required.');
+            this.errors.push('Date is required.');
         }
+ 
     },
         resetForm: function () {
             this.contactFormData = {

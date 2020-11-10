@@ -22,7 +22,7 @@
                 
                 </div>
                 <hr>
-                        <p class="lead text-black mt-2 mb-2 cremona">The Villa International Palace Hotel</p>
+                        <p class="lead text-black mt-2 mb-2 cremona">The Villa International Palace Hotel Limited</p>
                         <div class="btn-wrapper mb-1">
                                 <router-link to="/book"> 
                             <base-button tag="a"
